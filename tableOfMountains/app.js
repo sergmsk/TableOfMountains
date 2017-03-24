@@ -111,4 +111,6 @@ UnderlinedCell.prototype.draw = function (width, height) {
         .concat([repeat("-", width)]);
 };
 
-console.log(drawTable(dataTable(MOUNTAINS)));
+
+var tab = drawTable(dataTable(MOUNTAINS));
+console.log(tab);
