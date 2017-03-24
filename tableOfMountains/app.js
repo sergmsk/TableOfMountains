@@ -6,7 +6,7 @@ function repeat(string, times) {
         result += string;
     return result;
 }
-//конструктор для ячеек
+//РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РґР»СЏ СЏС‡РµРµРє
 function TextCell(text) {
     this.text = text.split("\n");
 }
