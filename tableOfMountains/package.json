@@ -1,0 +1,9 @@
+{
+  "name": "table-of-mountains",
+  "version": "0.0.0",
+  "description": "tableOfMountains",
+  "main": "app.js",
+  "author": {
+    "name": "Home"
+  }
+}
