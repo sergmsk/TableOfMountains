@@ -6,7 +6,7 @@ var MOUNTAINS = [
   {name: "Vaalserberg", height: 323, country: "Netherlands"},
   {name: "Denali", height: 6168, country: "United States"},
   {name: "Popocatepetl", height: 5465, country: "Mexico"},
-  {name: "Elbrus", heigth: 5642, country: "Russian"}
+  {name: "Elbrus", height: 5642, country: "Russian"}
 ];
 
 if (typeof module != "undefined" && module.exports)
