@@ -27,6 +27,19 @@ TextCell.prototype.draw = function (width, height) {
     return result;
 };
 
+function RTextCell(text) {
+    TextCell.call(this, text);
+}
+RTextCell.prototype = Object.create(TextCell.prototype);
+RTextCell.prototype.draw = function (width, height) {
+    var result = [];
+    for (var i = 0; i < height; i++) {
+        var line = this.text[i] || "";
+        result.push(repeat(" ", width - line.length) + line);
+    }
+    return result;
+};
+
 function rowHeights(rows) {
     return rows.map(function (row) {
         return row.reduce(function (max, cell) {
